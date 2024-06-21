@@ -143,8 +143,7 @@ export class HomePage extends Component {
 
     if (category === "a-z") {
       allContacts.sort((a, b) => a.firstname.localeCompare(b.firstname));
-    }git
-
+    }
 
     //favorite contacts
     let favotiteContacts = allContacts.filter((contact)=>contact.favorite)
